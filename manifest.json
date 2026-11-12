@@ -1,0 +1,123 @@
+{
+  "experiment": "genai_unit_test_generation",
+  "created": "2026-11-11",
+  "python": "3.12.4",
+  "venv": ".venv",
+  "tooling": {
+    "pytest": "9.2.0",
+    "coverage": "7.17.2",
+    "pytest-cov": "7.1.0"
+  },
+  "targets": [
+    {
+      "id": "itsdangerous.encoding",
+      "import_path": "itsdangerous.encoding",
+      "distribution": "itsdangerous",
+      "distribution_version": "2.2.0",
+      "source_file": "sources/itsdangerous.encoding.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\itsdangerous\\encoding.py",
+      "lines": 54,
+      "sha256": "c304f3e6aff7ccb71a01dba793afef4a84adc06a9859edf4ed997f53ceda4453",
+      "note": "base64url 与整数互转，负数/零/大整数边界"
+    },
+    {
+      "id": "humanize.filesize",
+      "import_path": "humanize.filesize",
+      "distribution": "humanize",
+      "distribution_version": "4.16.0",
+      "source_file": "sources/humanize.filesize.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\humanize\\filesize.py",
+      "lines": 110,
+      "sha256": "b35adbf0bf7893f88beb2eb3c689237b84469444de1326a42545790b01913ec7",
+      "note": "人类可读文件大小，舍入与负数边界"
+    },
+    {
+      "id": "stdnum.iban",
+      "import_path": "stdnum.iban",
+      "distribution": "python-stdnum",
+      "distribution_version": "2.2",
+      "source_file": "sources/stdnum.iban.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\stdnum\\iban.py",
+      "lines": 135,
+      "sha256": "78819141b479104758ef833ef3c4dec5a146bf32a971d458a2432c7eef5331d7",
+      "note": "IBAN 校验位算法，长度与校验和"
+    },
+    {
+      "id": "base58",
+      "import_path": "base58",
+      "distribution": "base58",
+      "distribution_version": "2.1.1",
+      "source_file": "sources/base58.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\base58\\__init__.py",
+      "lines": 159,
+      "sha256": "ec7bc75fe227f2f63f009206a8f621311ba26d8916344534ca2aae6a90832a9c",
+      "note": "Base58 编解码，字符集与空输入"
+    },
+    {
+      "id": "stdnum.isbn",
+      "import_path": "stdnum.isbn",
+      "distribution": "python-stdnum",
+      "distribution_version": "2.2",
+      "source_file": "sources/stdnum.isbn.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\stdnum\\isbn.py",
+      "lines": 207,
+      "sha256": "dd9f5825cb4171e5d2e806210d4ddf0139d72c3668a55188f11638ebc2069764",
+      "note": "ISBN-10/13 校验位与格式转换"
+    },
+    {
+      "id": "stringcase",
+      "import_path": "stringcase",
+      "distribution": "stringcase",
+      "distribution_version": "1.2.0",
+      "source_file": "sources/stringcase.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\stringcase.py",
+      "lines": 247,
+      "sha256": "2056a07cbf392241dadf93beed105a4ae0d8d4f670ee940c571f97f16faa7274",
+      "note": "多种命名风格互转，空串与数字边界"
+    },
+    {
+      "id": "inflection",
+      "import_path": "inflection",
+      "distribution": "inflection",
+      "distribution_version": "0.5.1",
+      "source_file": "sources/inflection.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\inflection\\__init__.py",
+      "lines": 426,
+      "sha256": "3f2dfceedae1d0ff7399c238e70da02eb0c0a658e2f649ad1abe6cec36374c3f",
+      "note": "英文单复数与驼峰转换，不规则词"
+    },
+    {
+      "id": "humanize.number",
+      "import_path": "humanize.number",
+      "distribution": "humanize",
+      "distribution_version": "4.16.0",
+      "source_file": "sources/humanize.number.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\humanize\\number.py",
+      "lines": 569,
+      "sha256": "dfbd68811a62fa8d824da8aaffc288409ae01351852ec2d301899ea1a6270307",
+      "note": "数字格式化，序数、科学计数、负数"
+    },
+    {
+      "id": "semver.version",
+      "import_path": "semver.version",
+      "distribution": "semver",
+      "distribution_version": "3.1.1",
+      "source_file": "sources/semver.version.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\semver\\version.py",
+      "lines": 878,
+      "sha256": "a885e6eeb467e4770bc17d80c93da5210806aa33d340033b4ed197a27d028500",
+      "note": "语义化版本解析与比较，预发布版本优先级"
+    },
+    {
+      "id": "packaging.version",
+      "import_path": "packaging.version",
+      "distribution": "packaging",
+      "distribution_version": "26.3",
+      "source_file": "sources/packaging.version.py",
+      "installed_file": "C:\\Users\\heyux\\Desktop\\Test-Project\\.venv\\Lib\\site-packages\\packaging\\version.py",
+      "lines": 1252,
+      "sha256": "558b2fb50fd198c660a4c082f96b8919c565911b6b4b6e07f34b6b60c074be97",
+      "note": "PEP 440 版本解析与比较，大量非法输入"
+    }
+  ]
+}
